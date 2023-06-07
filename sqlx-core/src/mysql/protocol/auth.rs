@@ -7,7 +7,7 @@ pub enum AuthPlugin {
     MySqlNativePassword,
     CachingSha2Password,
     Sha256Password,
-    ClearPassword,
+    MySqlClearPassword,
 }
 
 impl AuthPlugin {
